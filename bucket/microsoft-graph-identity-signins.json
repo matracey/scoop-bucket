@@ -1,0 +1,26 @@
+{
+    "version": "2.26.1",
+    "description": "Microsoft Graph PowerShell Cmdlets",
+    "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
+    "license": "https://aka.ms/devservicesagreement",
+    "depends": "microsoft-graph-authentication",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content_Types*.xml\" -Recurse",
+    "pre_uninstall": [
+        "$InstalledDeps = $manifest.depends | Where-Object { Test-Path \"$(appdir $_)\\current\" }",
+        "if (-not $InstalledDeps) { return }",
+        "if ($global) { scoop uninstall --global $InstalledDeps }",
+        "else { scoop uninstall $InstalledDeps }"
+    ],
+    "checkver": {
+        "regex": "<h2>([\\d\\.]+)</h2>",
+        "url": "https://www.powershellgallery.com/packages/microsoft.graph.identity.signins"
+    },
+    "autoupdate": {
+        "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.identity.signins/$version#/microsoft.graph.identity.signins.nupkg"
+    },
+    "hash": "b4776e5d06e79eaf2e68cbfe4cc12bfce8e2fab6b99aa414c474f552dcbbfcd1",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.identity.signins/2.26.1#/microsoft.graph.identity.signins.nupkg",
+    "psmodule": {
+        "name": "Microsoft.Graph.Identity.SignIns"
+    }
+}
