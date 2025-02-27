@@ -1,0 +1,26 @@
+{
+    "version": "2.26.1",
+    "description": "Microsoft Graph PowerShell Cmdlets",
+    "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
+    "license": "https://aka.ms/devservicesagreement",
+    "depends": "microsoft-graph-authentication",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content_Types*.xml\" -Recurse",
+    "pre_uninstall": [
+        "$InstalledDeps = $manifest.depends | Where-Object { Test-Path \"$(appdir $_)\\current\" }",
+        "if (-not $InstalledDeps) { return }",
+        "if ($global) { scoop uninstall --global $InstalledDeps }",
+        "else { scoop uninstall $InstalledDeps }"
+    ],
+    "checkver": {
+        "regex": "<h2>([\\d\\.]+)</h2>",
+        "url": "https://www.powershellgallery.com/packages/microsoft.graph.users"
+    },
+    "autoupdate": {
+        "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.users/$version#/microsoft.graph.users.nupkg"
+    },
+    "hash": "4d6f32d3111a6f95171086c08311599ee82c02411667d6224829e2a983e4670c",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.users/2.26.1#/microsoft.graph.users.nupkg",
+    "psmodule": {
+        "name": "Microsoft.Graph.Users"
+    }
+}
