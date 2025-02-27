@@ -1,0 +1,26 @@
+{
+    "version": "2.26.1",
+    "description": "Microsoft Graph PowerShell Cmdlets",
+    "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
+    "license": "https://aka.ms/devservicesagreement",
+    "depends": "microsoft-graph-authentication",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content_Types*.xml\" -Recurse",
+    "pre_uninstall": [
+        "$InstalledDeps = $manifest.depends | Where-Object { Test-Path \"$(appdir $_)\\current\" }",
+        "if (-not $InstalledDeps) { return }",
+        "if ($global) { scoop uninstall --global $InstalledDeps }",
+        "else { scoop uninstall $InstalledDeps }"
+    ],
+    "checkver": {
+        "regex": "<h2>([\\d\\.]+)</h2>",
+        "url": "https://www.powershellgallery.com/packages/microsoft.graph.devices.corporatemanagement"
+    },
+    "autoupdate": {
+        "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.corporatemanagement/$version#/microsoft.graph.devices.corporatemanagement.nupkg"
+    },
+    "hash": "a10881863db85b8774e3006addb09b1ead1d883518b43cb50446b5f1c04113a7",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.corporatemanagement/2.26.1#/microsoft.graph.devices.corporatemanagement.nupkg",
+    "psmodule": {
+        "name": "Microsoft.Graph.Devices.CorporateManagement"
+    }
+}
