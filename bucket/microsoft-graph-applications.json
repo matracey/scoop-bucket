@@ -1,5 +1,5 @@
 {
-    "version": "2.26.1",
+    "version": "2.27.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.applications/$version#/microsoft.graph.applications.nupkg"
     },
-    "hash": "09de584f91b747859b1c6d2d9bd37dc767c74f6265bb61dfff73f0be8018a1b3",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.applications/2.26.1#/microsoft.graph.applications.nupkg",
+    "hash": "428ec2f0c1e727f38fd31273dac3b3a8aefa030d4d1e308cb85f18aee16a708d",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.applications/2.27.0#/microsoft.graph.applications.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Applications"
     }
