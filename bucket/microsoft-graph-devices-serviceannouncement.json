@@ -1,5 +1,5 @@
 {
-    "version": "2.26.1",
+    "version": "2.27.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.serviceannouncement/$version#/microsoft.graph.devices.serviceannouncement.nupkg"
     },
-    "hash": "7bafad3be7f7b462f0d67c1ff7eed4fa808014d3bcfa22b38e402370b1b3144b",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.serviceannouncement/2.26.1#/microsoft.graph.devices.serviceannouncement.nupkg",
+    "hash": "9e62f70f04318bdba8f3f97ca22c1e903c45d973783182cc6da5b211f4607d2b",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.serviceannouncement/2.27.0#/microsoft.graph.devices.serviceannouncement.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Devices.ServiceAnnouncement"
     }
