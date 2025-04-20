@@ -1,5 +1,5 @@
 {
-    "version": "2.26.1",
+    "version": "2.27.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.personalcontacts/$version#/microsoft.graph.personalcontacts.nupkg"
     },
-    "hash": "d65584c1baed5053d3230c48528b549925fef10852cf33b06414f5ed54aba700",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.personalcontacts/2.26.1#/microsoft.graph.personalcontacts.nupkg",
+    "hash": "94bafbb7b1f814e1d9546e5d5f87d707165ef8f073c6bb6624f59d2b3b211802",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.personalcontacts/2.27.0#/microsoft.graph.personalcontacts.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.PersonalContacts"
     }
