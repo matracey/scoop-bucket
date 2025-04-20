@@ -1,5 +1,5 @@
 {
-    "version": "2.26.1",
+    "version": "2.27.0",
     "description": "Microsoft Graph PowerShell module",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -57,8 +57,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph/$version#/microsoft.graph.nupkg"
     },
-    "hash": "a5162d6d1a2c87dbfd7164bac958ca5b59fa1900dd87a922f3e78f824dcac87f",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph/2.26.1#/microsoft.graph.nupkg",
+    "hash": "f1e461d7684b543bf59bde3e457bd108c53f1cfc0e9c2343e56e42ba1502cfc0",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph/2.27.0#/microsoft.graph.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph"
     }
