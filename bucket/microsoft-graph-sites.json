@@ -1,5 +1,5 @@
 {
-    "version": "2.26.1",
+    "version": "2.27.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.sites/$version#/microsoft.graph.sites.nupkg"
     },
-    "hash": "e208e19b64c73500dc8d23d0d782a4d6bc95ff2af9ea918153f1a9c4089151b0",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.sites/2.26.1#/microsoft.graph.sites.nupkg",
+    "hash": "81c90930153aad60cc4822400ca0dabb5a19def304f15cc409a3da40f113e6aa",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.sites/2.27.0#/microsoft.graph.sites.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Sites"
     }
