@@ -1,5 +1,5 @@
 {
-    "version": "2.27.0",
+    "version": "2.28.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.bookings/$version#/microsoft.graph.bookings.nupkg"
     },
-    "hash": "d9dd74ab7807e0c47dc75aca4b157106f740efdc9662a79b528331c4e86dea27",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.bookings/2.27.0#/microsoft.graph.bookings.nupkg",
+    "hash": "a4ec2e5c7f66ad940e4092f133ea65c4d0895ce59af3fdec822e2092b754dfd2",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.bookings/2.28.0#/microsoft.graph.bookings.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Bookings"
     }
