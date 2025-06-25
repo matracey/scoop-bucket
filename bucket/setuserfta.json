@@ -1,0 +1,17 @@
+{
+    "version": "1.8.2",
+    "description": "SetUserFTA is a powerful command-line tool designed to streamline the management of file type associations and default browser settings for Windows users.",
+    "homepage": "https://setuserfta.com/",
+    "license": "Proprietary",
+    "url": "https://setuserfta.com/SetUserFTA.zip",
+    "hash": "f5b2ef5dffebe7976090d67b37c73cead6eff1ea277f8b1513be6e9a1178dd3d",
+    "extract_dir": "SetUserFTA",
+    "bin": "SetUserFTA.exe",
+    "checkver": {
+        "url": "https://setuserfta.com/",
+        "regex": "The personal edition is version (\\d+(?:\\.\\d+)+)"
+    },
+    "autoupdate": {
+        "url": "https://setuserfta.com/SetUserFTA.zip"
+    }
+}
