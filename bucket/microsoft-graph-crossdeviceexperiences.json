@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.crossdeviceexperiences/$version#/microsoft.graph.crossdeviceexperiences.nupkg"
     },
-    "hash": "6b24191a43d7678081170ca1b9b1a9b8dca6d34a02550d8668b5c50148ae51df",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.crossdeviceexperiences/2.28.0#/microsoft.graph.crossdeviceexperiences.nupkg",
+    "hash": "653394a0ab40e1bb002a449cd2d8762e3d84c6f7ee9a5353e4d03e13bb598a4a",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.crossdeviceexperiences/2.29.0#/microsoft.graph.crossdeviceexperiences.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.CrossDeviceExperiences"
     }
