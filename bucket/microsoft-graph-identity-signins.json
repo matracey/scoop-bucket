@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.identity.signins/$version#/microsoft.graph.identity.signins.nupkg"
     },
-    "hash": "0a7df47f590fab787990daec39410fd73e60aa34c07033f7ec1c5b82968c126d",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.identity.signins/2.28.0#/microsoft.graph.identity.signins.nupkg",
+    "hash": "2d85e1eb6dac63db36c1c1e59d1952256a2c1c4c31cbc796ff827cd3ac440ab5",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.identity.signins/2.29.0#/microsoft.graph.identity.signins.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Identity.SignIns"
     }
