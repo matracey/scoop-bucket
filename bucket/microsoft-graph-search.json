@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.search/$version#/microsoft.graph.search.nupkg"
     },
-    "hash": "542c4bf4c2a1e74f19a1815d3a2278fcae5a68d9154cb2b98c7f6e063c63e890",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.search/2.28.0#/microsoft.graph.search.nupkg",
+    "hash": "55e6703770d52c298536ea6b26d77d339e8e9a2cff5dc9f5c5400dd4fc9a61d8",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.search/2.29.0#/microsoft.graph.search.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Search"
     }
