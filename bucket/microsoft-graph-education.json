@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.education/$version#/microsoft.graph.education.nupkg"
     },
-    "hash": "780a63fd07fcdd43459f766a3de08bc4c2ba8d2923284165903bb060909d1275",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.education/2.28.0#/microsoft.graph.education.nupkg",
+    "hash": "4398caa52c009a1d7b191f312e511ed845168661a9d573a83b8e73108929c426",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.education/2.29.0#/microsoft.graph.education.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Education"
     }
