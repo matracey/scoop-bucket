@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.cloudcommunications/$version#/microsoft.graph.cloudcommunications.nupkg"
     },
-    "hash": "225ad4fe3ab48dffb73641f6b6e2cfd0593210e25071344c4fdcb1f055cdc52b",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.cloudcommunications/2.28.0#/microsoft.graph.cloudcommunications.nupkg",
+    "hash": "41ca42540740f18d57d108a749307c48f26c9eb27c5bfa667d13c4600681d210",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.cloudcommunications/2.29.0#/microsoft.graph.cloudcommunications.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.CloudCommunications"
     }
