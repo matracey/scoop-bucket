@@ -1,5 +1,5 @@
 {
-    "version": "2.28.0",
+    "version": "2.29.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.cloudprint/$version#/microsoft.graph.devices.cloudprint.nupkg"
     },
-    "hash": "1eb8e8ac8cbb479f3675589dd05ab9a44ae3bf5e17843fcb0a3cb04658615855",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.cloudprint/2.28.0#/microsoft.graph.devices.cloudprint.nupkg",
+    "hash": "8ba809b78070fd51a8c1aead867d73dfe029470fb9b1f2e0dd8a155ef5b243d1",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devices.cloudprint/2.29.0#/microsoft.graph.devices.cloudprint.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Devices.CloudPrint"
     }
