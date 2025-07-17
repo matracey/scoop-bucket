@@ -1,5 +1,5 @@
 {
-    "version": "2.29.0",
+    "version": "2.29.1",
     "description": "Microsoft Graph PowerShell Authentication Module.",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -11,8 +11,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.authentication/$version#/microsoft.graph.authentication.nupkg"
     },
-    "hash": "a1b2b11bbe411a352852a743511ed8cb048278c011be582fd21b3dc9dded7011",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.authentication/2.29.0#/microsoft.graph.authentication.nupkg",
+    "hash": "96e7d19f1eadc49d56a921ac136d79ea709d005cd5211be4804235278c4645e6",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.authentication/2.29.1#/microsoft.graph.authentication.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.Authentication"
     }
