@@ -1,5 +1,5 @@
 {
-    "version": "2.29.0",
+    "version": "2.29.1",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.directoryobjects/$version#/microsoft.graph.directoryobjects.nupkg"
     },
-    "hash": "a8c3df1b5320dff2aaf7d25170914917cf384e7afced5dbf14365c2429c8233e",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.directoryobjects/2.29.0#/microsoft.graph.directoryobjects.nupkg",
+    "hash": "faa523feb82223719e6233c0a4ea6df0a15c707651341b257ac270f821b6a5f4",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.directoryobjects/2.29.1#/microsoft.graph.directoryobjects.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.DirectoryObjects"
     }
