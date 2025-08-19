@@ -1,5 +1,5 @@
 {
-    "version": "2.29.1",
+    "version": "2.30.0",
     "description": "Microsoft Graph PowerShell Cmdlets",
     "homepage": "https://github.com/microsoftgraph/msgraph-sdk-powershell",
     "license": "https://aka.ms/devservicesagreement",
@@ -18,8 +18,8 @@
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devicemanagement/$version#/microsoft.graph.devicemanagement.nupkg"
     },
-    "hash": "257af77505d91252beb1e9c118694022b0796cbe87f8e99e956110e1da51d0ae",
-    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devicemanagement/2.29.1#/microsoft.graph.devicemanagement.nupkg",
+    "hash": "ca849c08c29b5333e7fa78cf1dcd0d713814b7df935fec97d15a36de48389fb8",
+    "url": "https://www.powershellgallery.com/api/v2/package/microsoft.graph.devicemanagement/2.30.0#/microsoft.graph.devicemanagement.nupkg",
     "psmodule": {
         "name": "Microsoft.Graph.DeviceManagement"
     }
