@@ -1,0 +1,23 @@
+{
+    "version": "3.5.2",
+    "description": "Get-ChildItemColor provides colored versions of Get-ChildItem Cmdlet and Get-ChildItem | Format-Wide (ls equivalent)",
+    "homepage": "https://github.com/joonro/Get-ChildItemColor",
+    "license": "https://github.com/joonro/Get-ChildItemColor/blob/master/license",
+    "url": "https://www.powershellgallery.com/api/v2/package/Get-ChildItemColor/3.5.2#/Get-ChildItemColor.nupkg",
+    "hash": "5088c8ae07c848115311fde234e4cdbf34c46e8ab4a448008752ebd0aedbe8db",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content_Types*.xml\" -Recurse",
+    "psmodule": {
+        "name": "Get-ChildItemColor"
+    },
+    "checkver": {
+        "regex": "<h2>([\\d\\.]+)</h2>",
+        "url": "https://www.powershellgallery.com/packages/Get-ChildItemColor"
+    },
+    "autoupdate": {
+        "url": "https://www.powershellgallery.com/api/v2/package/Get-ChildItemColor/$version#/Get-ChildItemColor.nupkg"
+    },
+    "notes": [
+        "Author: Joon Ro",
+        "Tags: Get-ChildItem, ls, Color"
+    ]
+}
